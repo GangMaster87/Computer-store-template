@@ -1,0 +1,31 @@
+@font-face{
+    font-family: vazir;
+    src: url("../font/vazir/vazir-font-v16.1.0/Vazir.ttf");
+}
+*{
+    font-family: vazir;
+}
+body{
+    margin: 0px;
+}
+header{
+    height: 100px;
+  
+    background-color: black;
+}
+.logo{
+    height: 80px;
+    width: 72px;
+}
+.nav-link{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.decoration-write{
+    color: orange;
+}
+.header-design:hover{
+    background: grey;
+
+}
